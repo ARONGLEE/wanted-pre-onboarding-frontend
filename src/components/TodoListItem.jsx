@@ -7,11 +7,9 @@ export default function TodoListItem({ todos, editTodo, deleteTodo }) {
   const { id, todo, isCompleted } = todos;
   const [value, setValue] = useState('');
   const [status, setStatus] = useState(false);
-  // const [completed, setCompleted] = useState(isCompleted);
 
   const checkHandler = () => {
     editTodo(id, todo, !isCompleted);
-    // setCompleted(!completed);
   };
 
   const onChange = useCallback((e) => {
