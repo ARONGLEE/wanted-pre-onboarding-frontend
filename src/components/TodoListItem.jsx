@@ -9,8 +9,6 @@ export default function TodoListItem({ todos, editTodo, deleteTodo }) {
   const [status, setStatus] = useState(false);
   // const [completed, setCompleted] = useState(isCompleted);
 
-  console.log(deleteTodo);
-
   const checkHandler = () => {
     editTodo(id, todo, !isCompleted);
     // setCompleted(!completed);

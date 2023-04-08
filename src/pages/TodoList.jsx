@@ -17,7 +17,7 @@ export default function TodoList() {
         }
       })
       .catch((error) => {
-        console.log(error);
+        window.console.log(error);
       });
   };
 
@@ -39,7 +39,7 @@ export default function TodoList() {
         }
       })
       .catch((error) => {
-        console.log(error);
+        window.console.log(error);
       });
   };
 
@@ -65,7 +65,7 @@ export default function TodoList() {
         }
       })
       .catch((error) => {
-        console.log(error);
+        window.console.log(error);
       });
   };
 
@@ -78,7 +78,7 @@ export default function TodoList() {
         }
       })
       .catch((error) => {
-        console.log(error);
+        window.console.log(error);
       });
   };
 

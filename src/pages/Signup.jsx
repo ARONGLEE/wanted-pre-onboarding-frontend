@@ -42,12 +42,11 @@ export default function Signup() {
         },
         { headers: { 'Content-Type': 'application/json' } },
       )
-      .then((res) => {
-        console.log(res);
+      .then(() => {
         navigate('/signin');
       })
       .catch((error) => {
-        console.log(error);
+        window.console.log(error);
       });
   };
 

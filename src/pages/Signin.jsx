@@ -51,7 +51,7 @@ export default function Signin() {
         }
       })
       .catch((error) => {
-        console.log(error);
+        window.console.log(error);
       });
   };
 
